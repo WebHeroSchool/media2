@@ -1,0 +1,39 @@
+
+ .title {
+  color: blue;
+  background: lightblue;
+  padding: 20px;
+}
+.article {
+  color: green;
+  background: lightblue;
+  
+}
+
+@media (min-width: 320px) {
+  .title {
+    font-size: 16px;
+    }
+     .article {
+     font-size: 11px;
+     }
+  }
+
+@media (min-width: 768px) {
+   .title {
+    font-size: 32px;
+    }
+     .article {
+     font-size: 22px;
+     }
+}
+
+ @media (min-width: 1024px) {
+   .title {
+    font-size: 37px;
+    }
+     .article {
+     font-size: 24px;
+     background: pink;
+     }
+     }
